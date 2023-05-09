@@ -259,10 +259,10 @@ class Agent:
 if __name__ == '__main__':
     #数据导入
     #训练数据
-    df_full = pd.read_csv('C:\\Users\\93911\\Desktop\\Trading database\\META_tr.csv')
+    df_full = pd.read_csv('Your root\\META_tr.csv')
     print(df_full.head())
     #检验数据
-    df_t_full = pd.read_csv('C:\\Users\\93911\\Desktop\\Trading database\\META_test.csv')
+    df_t_full = pd.read_csv('Your root\\META_test.csv')
     #随机数设定
     tf.disable_v2_behavior()
     random_seed = 100
